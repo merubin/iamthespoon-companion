@@ -1,0 +1,64 @@
+/*==========================================================
+    I AM THE SPOON™ Companion App
+    Version 0.0.2
+==========================================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1d3557;
+    color: white;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: .3em;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 1em;
+}
+
+.version {
+    color: #cccccc;
+    margin-bottom: 2em;
+}
+
+button {
+    font-size: 1.2rem;
+
+    padding: 15px 40px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: gold;
+    color: black;
+
+    cursor: pointer;
+
+    transition: .25s;
+}
+
+button:hover {
+    background: orange;
+    transform: scale(1.05);
+}
